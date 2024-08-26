@@ -35,7 +35,7 @@ function MyDApp() {
         textAlign: "center",
       }}
     >
-      <h1>My DApp</h1>
+      <h1>Flip A Coin</h1>
       {!isConnected ? (
         <button
           onClick={connectWallet}
